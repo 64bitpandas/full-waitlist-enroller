@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Binaries
+chromedriver.exe
+geckodriver.exe
