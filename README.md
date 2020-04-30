@@ -9,6 +9,12 @@ This probably won't help since enrollment is a lost cause, but at least you can 
 
 ![blue square](img/bluesquare.png)
 
+## What does it do?
+
+This script will automatically go to the 'swap' tab of the enrollment page and attempt to swap a class you're enrolled in with a class that has a full waitlist.
+
+If the class is still full, the script will let you know and do nothing. But if someone dropped and there's a space that opened up in the waitlist, it will automatically add you onto the waitlist! Great for squeezing into those super full classes that you wouldn't have a chance at otherwise (cough cough data why u do dis).
+
 ## How to Use
 
 **IMPORTANT: DO NOT TRUST UNKNOWN SOURCES WITH YOUR PASSWORDS!!** Only proceed if you have reviewed the source and have determined that this script indeed is not intelligent enough to steal your password and use it to buy 100,000 flex dollars.
