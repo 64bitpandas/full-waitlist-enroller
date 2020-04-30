@@ -4,7 +4,7 @@
 #########################
 
 # Disables the big warning message.
-DISABLE_WARNING = True
+DISABLE_WARNING = False
 
 # The current term, in format <year> <semester> (e.g. 2020 Fall)
 TERM = "2020 Fall"
@@ -18,3 +18,4 @@ COURSE_NAME = "PSYCH 101"
 # Do not edit
 # ===========================
 URL_AUTH_PORTAL = "https://auth.berkeley.edu/cas/login?service=https://bcsweb.is.berkeley.edu/psp/bcsprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSR_SSENRL_SWAP.GBL?&ucFrom=CalCentral&ucFromText=My%20Academics&ucFromLink=https://calcentral.berkeley.edu/academics"
+HEADLESS = True

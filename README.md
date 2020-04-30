@@ -20,7 +20,7 @@ This probably won't help since enrollment is a lost cause, but at least you can 
 5. Place the `chromedriver.exe` file you downloaded into the directory.
 5. Edit `constants.py` to add the class you want in `COURSE_NAME` and the swapped class in `SWAP_NAME`.
     - Example: `DATA C8` (must be all caps)
-5. Run using `python3 enroll.py` and hope for the best.
+5. Run using `python enroll.py` and hope for the best.
 6. Repeat once a week/day/hour (for extra laziness just set a cronjob or something)
 
 
@@ -28,23 +28,27 @@ This probably won't help since enrollment is a lost cause, but at least you can 
 
 ## How does it work?
 
-This script uses the Calnet login script from [encadyma's caldining status checker](https://github.com/encadyma/dining_pts). It uses [Selenium](https://www.selenium.dev/) to automate button-clicking and page reading for you!
+This script uses the Calnet login script from [encadyma's caldining status checker](https://github.com/encadyma/dining_pts).
+
+It uses [Selenium](https://www.selenium.dev/) to automate button-clicking and page reading for you!
+
+To see exactly what's going on behind the scenes, set `HEADLESS` to `False` in `constants.py`. This will open up a Chrome window when running the script to show you which buttons are being pressed in the shopping cart by the script.
 
 <!-- Insert more description -->
 
 ## FAQ
 
-**There is a bug and/or it doesn't work with XX class?**
+**There is a bug and/or it doesn't work with XX course?**
  - Create an [issue](https://github.com/64bitpandas/full-waitlist-enroller/issues) describing the problem and I'll probably ignore it.
 
 **I ran this and it dropped me from all my classes. Who do I sue?**
- - Forward all legal inquiries to: <br>Supreme Court of the United States<br>1 First Street, NE Washington, DC<br>20543
+ - Sue Denim
 
 **Did this help you get into your classes?**
  - No. No it did not.
 
 **Was it even worth it to make this then???**
- - Yes.
+ - Absolutely!
 
 **I have a question not on this FAQ?**
  - ok
