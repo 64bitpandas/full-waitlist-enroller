@@ -51,7 +51,7 @@ To see exactly what's going on behind the scenes, set `HEADLESS` to `False` in `
  - Sue Denim
 
 **Did this help you get into your classes?**
- - No. No it did not.
+ - ~~No. No it did not.~~ **UPDATE: I GOT IN!!!!! im such a legend**
 
 **Was it even worth it to make this then???**
  - Absolutely!
